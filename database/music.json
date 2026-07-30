@@ -1,0 +1,36 @@
+{
+  "120363012345678901@g.us": {
+    "enabled": true,
+    "autoplay": false,
+    "volume": 100,
+    "loop": false,
+    "queue": [
+      {
+        "title": "Alan Walker - Faded",
+        "url": "https://example.com/music/faded",
+        "requestedBy": "254712345678@s.whatsapp.net"
+      }
+    ],
+    "nowPlaying": {
+      "title": "Alan Walker - Faded",
+      "url": "https://example.com/music/faded",
+      "requestedBy": "254712345678@s.whatsapp.net"
+    }
+  },
+  "254712345678@s.whatsapp.net": {
+    "favorites": [
+      {
+        "title": "Perfect",
+        "artist": "Ed Sheeran"
+      },
+      {
+        "title": "Believer",
+        "artist": "Imagine Dragons"
+      }
+    ],
+    "lastPlayed": {
+      "title": "Perfect",
+      "artist": "Ed Sheeran"
+    }
+  }
+}
