@@ -1,0 +1,30 @@
+{
+  "120363012345678901@g.us": {
+    "enabled": true,
+    "mode": "random",
+    "emojis": [
+      "❤️",
+      "👍",
+      "🔥",
+      "😂",
+      "😊",
+      "😎",
+      "🎉",
+      "⚡",
+      "💯"
+    ],
+    "ignoreBots": true,
+    "ignoreAdmins": false
+  },
+  "254712345678@s.whatsapp.net": {
+    "enabled": true,
+    "mode": "random",
+    "emojis": [
+      "❤️",
+      "👍",
+      "😊"
+    ],
+    "ignoreBots": true,
+    "ignoreAdmins": false
+  }
+}
