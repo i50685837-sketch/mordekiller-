@@ -1,0 +1,23 @@
+{
+  "autoReply": true,
+  "autoReact": true,
+  "autoRead": true,
+  "autoType": false,
+  "autoSticker": true,
+  "autoViewStatus": true,
+  "autoLikeStatus": true,
+  "antiDelete": true,
+  "antiSpam": true,
+  "antiLink": true,
+  "antiBot": true,
+  "antiCall": true,
+  "welcome": true,
+  "goodbye": true,
+  "chatBot": true,
+  "economy": true,
+  "ai": true,
+  "translator": true,
+  "logger": true,
+  "backup": true,
+  "scheduler": true
+}
