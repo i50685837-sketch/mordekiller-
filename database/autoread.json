@@ -1,0 +1,16 @@
+{
+  "120363012345678901@g.us": {
+    "enabled": true,
+    "readMessages": true,
+    "ignoreAdmins": false,
+    "ignoreBots": true,
+    "readStatus": false,
+    "log": true
+  },
+  "254712345678@s.whatsapp.net": {
+    "enabled": true,
+    "readMessages": true,
+    "ignoreBots": true,
+    "log": false
+  }
+}
