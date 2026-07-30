@@ -1,0 +1,16 @@
+{
+  "254712345678@s.whatsapp.net": {
+    "active": true,
+    "chatMode": "ai",
+    "startedAt": 1753850000000,
+    "lastActivity": 1753855000000,
+    "messages": 42
+  },
+  "120363012345678901@g.us": {
+    "active": true,
+    "chatMode": "group",
+    "startedAt": 1753840000000,
+    "lastActivity": 1753854000000,
+    "messages": 356
+  }
+}
