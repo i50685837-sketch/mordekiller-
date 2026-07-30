@@ -1,0 +1,18 @@
+{
+  "120363012345678901@g.us": {
+    "enabled": true,
+    "ai": "openai",
+    "language": "en",
+    "prefixRequired": false,
+    "mentionRequired": true,
+    "replyToBotOnly": false
+  },
+  "254712345678@s.whatsapp.net": {
+    "enabled": true,
+    "ai": "openai",
+    "language": "en",
+    "prefixRequired": false,
+    "mentionRequired": false,
+    "replyToBotOnly": false
+  }
+}
