@@ -1,0 +1,28 @@
+{
+  "global": {
+    "enabled": true,
+    "mode": "random",
+    "emoji": [
+      "❤️",
+      "👍",
+      "🔥",
+      "😍",
+      "😂",
+      "👏",
+      "💯",
+      "🎉"
+    ],
+    "ignoreMuted": false,
+    "log": true
+  },
+  "254712345678@s.whatsapp.net": {
+    "enabled": true,
+    "lastReacted": 1753850000000,
+    "reactions": 18
+  },
+  "254798765432@s.whatsapp.net": {
+    "enabled": false,
+    "lastReacted": 0,
+    "reactions": 0
+  }
+}
