@@ -1,0 +1,25 @@
+{
+  "120363012345678901@g.us": {
+    "id": "120363012345678901@g.us",
+    "name": "MordeKiller Community",
+    "welcome": true,
+    "goodbye": true,
+    "antiLink": true,
+    "antiSpam": true,
+    "antiDelete": true,
+    "antiBot": false,
+    "antiCall": true,
+    "autoSticker": false,
+    "autoReact": false,
+    "autoRead": false,
+    "autoType": false,
+    "autoLock": false,
+    "autoUnlock": false,
+    "chatBot": false,
+    "mute": false,
+    "nsfw": false,
+    "language": "en",
+    "prefix": ".",
+    "createdAt": 0
+  }
+}
