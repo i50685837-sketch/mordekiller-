@@ -1,0 +1,20 @@
+{
+  "120363012345678901@g.us": {
+    "enabled": true,
+    "message": "👋 Welcome @user to *{group}*! Please read the group rules and enjoy your stay.",
+    "image": false,
+    "imageUrl": "",
+    "mention": true,
+    "deleteAfter": 0,
+    "log": true
+  },
+  "120363987654321098@g.us": {
+    "enabled": true,
+    "message": "🎉 Welcome to {group}, @user!",
+    "image": true,
+    "imageUrl": "./assets/welcome.jpg",
+    "mention": true,
+    "deleteAfter": 60,
+    "log": false
+  }
+}
