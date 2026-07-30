@@ -1,0 +1,24 @@
+{
+  "RPT-000001": {
+    "id": "RPT-000001",
+    "reporter": "254712345678@s.whatsapp.net",
+    "group": "120363012345678901@g.us",
+    "reportedUser": "254798765432@s.whatsapp.net",
+    "reason": "Spam messages",
+    "status": "pending",
+    "handledBy": null,
+    "createdAt": 1753850000000,
+    "updatedAt": 1753850000000
+  },
+  "RPT-000002": {
+    "id": "RPT-000002",
+    "reporter": "254700111222@s.whatsapp.net",
+    "group": null,
+    "reportedUser": null,
+    "reason": "Bot command not working",
+    "status": "resolved",
+    "handledBy": "254700000000@s.whatsapp.net",
+    "createdAt": 1753855000000,
+    "updatedAt": 1753860000000
+  }
+}
