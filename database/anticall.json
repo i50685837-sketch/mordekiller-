@@ -1,0 +1,20 @@
+{
+  "global": {
+    "enabled": true,
+    "blockVoiceCalls": true,
+    "blockVideoCalls": true,
+    "autoBlock": true,
+    "sendWarning": true,
+    "warningMessage": "📵 Please do not call the bot. Use chat commands instead."
+  },
+  "254712345678@s.whatsapp.net": {
+    "blocked": true,
+    "calls": 3,
+    "lastCall": 1753850000000
+  },
+  "254798765432@s.whatsapp.net": {
+    "blocked": false,
+    "calls": 1,
+    "lastCall": 1753855000000
+  }
+}
