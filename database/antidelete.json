@@ -1,0 +1,18 @@
+{
+  "120363012345678901@g.us": {
+    "enabled": true,
+    "notify": true,
+    "recoverText": true,
+    "recoverMedia": false,
+    "ignoreAdmins": true,
+    "log": true
+  },
+  "254712345678@s.whatsapp.net": {
+    "enabled": true,
+    "notify": false,
+    "recoverText": true,
+    "recoverMedia": true,
+    "ignoreAdmins": false,
+    "log": false
+  }
+}
