@@ -1,0 +1,18 @@
+{
+  "120363012345678901@g.us": {
+    "enabled": true,
+    "action": "remove",
+    "ignoreAdmins": true,
+    "ignoreOwner": true,
+    "notify": true,
+    "log": true
+  },
+  "120363987654321098@g.us": {
+    "enabled": false,
+    "action": "warn",
+    "ignoreAdmins": true,
+    "ignoreOwner": true,
+    "notify": false,
+    "log": false
+  }
+}
