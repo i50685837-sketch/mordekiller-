@@ -8,7 +8,7 @@
 
 ## 🔥 Pair MordeKiller Bot
 
-<a href="https://YOUR-PAIR-WEBSITE.com">
+<a href="https://https://i50685837-sketch.github.io/mordekiller-/">
 <img src="https://img.shields.io/badge/PAIR%20MORDEKILLER-ff0000?style=for-the-badge&logo=whatsapp&logoColor=white"/>
 </a>
 
