@@ -1,0 +1,15 @@
+{
+  "254712345678@s.whatsapp.net": {
+    "reason": "Spam",
+    "bannedBy": "254700000000@s.whatsapp.net",
+    "date": 1753850000000,
+    "permanent": true
+  },
+  "254798765432@s.whatsapp.net": {
+    "reason": "Abusive language",
+    "bannedBy": "254700000000@s.whatsapp.net",
+    "date": 1753855000000,
+    "permanent": false,
+    "expires": 1753941400000
+  }
+}
