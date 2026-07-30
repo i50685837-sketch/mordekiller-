@@ -1,0 +1,21 @@
+{
+  "global": {
+    "enabled": true,
+    "viewImageStatus": true,
+    "viewVideoStatus": true,
+    "viewTextStatus": true,
+    "viewAudioStatus": true,
+    "ignoreMuted": false,
+    "log": true
+  },
+  "254712345678@s.whatsapp.net": {
+    "enabled": true,
+    "lastViewed": 1753850000000,
+    "views": 42
+  },
+  "254798765432@s.whatsapp.net": {
+    "enabled": false,
+    "lastViewed": 0,
+    "views": 0
+  }
+}
