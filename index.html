@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MordeKiller Bot</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:linear-gradient(135deg,#0D47A1,#1976D2,#42A5F5);
+}
+
+.card{
+width:380px;
+padding:35px;
+border-radius:20px;
+background:rgba(255,255,255,.12);
+backdrop-filter:blur(18px);
+box-shadow:0 20px 40px rgba(0,0,0,.3);
+text-align:center;
+color:#fff;
+}
+
+.logo{
+width:80px;
+height:80px;
+margin:auto;
+margin-bottom:20px;
+border-radius:50%;
+background:#fff;
+color:#1565C0;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:28px;
+font-weight:bold;
+}
+
+h1{
+margin-bottom:10px;
+}
+
+p{
+opacity:.9;
+margin-bottom:20px;
+}
+
+input{
+width:100%;
+padding:15px;
+border:none;
+border-radius:10px;
+margin-bottom:15px;
+font-size:16px;
+outline:none;
+}
+
+button{
+width:100%;
+padding:15px;
+border:none;
+border-radius:10px;
+background:#fff;
+color:#1565C0;
+font-size:17px;
+font-weight:bold;
+cursor:pointer;
+}
+
+button:hover{
+background:#f2f2f2;
+}
+
+.link{
+display:block;
+margin-top:18px;
+color:#fff;
+text-decoration:none;
+}
+
+.status{
+margin-top:20px;
+padding:12px;
+border-radius:10px;
+background:rgba(255,255,255,.15);
+}
+
+.footer{
+margin-top:20px;
+font-size:12px;
+opacity:.8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="logo">MK</div>
+
+<h1>MordeKiller Bot</h1>
+
+<p>Connect to your server</p>
+
+<input
+type="tel"
+id="phone"
+placeholder="2547XXXXXXXX">
+
+<button onclick="requestCode()">
+Request Code
+</button>
+
+<a href="#" class="link">
+Use QR Instead
+</a>
+
+<div class="status">
+Server Status:
+<strong id="serverStatus">Checking...</strong>
+</div>
+
+<div class="footer">
+Powered by MordeKiller
+</div>
+
+</div>
+
+<script>
+async function checkServer() {
+    try {
+        const res = await fetch("/status");
+        const data = await res.json();
+
+        document.getElementById("serverStatus").textContent =
+            data.connected ? "Online" : "Offline";
+
+    } catch (e) {
+        document.getElementById("serverStatus").textContent =
+            "Offline";
+    }
+}
+
+function requestCode() {
+    const phone = document.getElementById("phone").value.trim();
+
+    if (!phone) {
+        alert("Enter your phone number.");
+        return;
+    }
+
+    alert("Connect this button to your server endpoint.");
+}
+
+checkServer();
+setInterval(checkServer, 5000);
+</script>
+
+</body>
+  </html>
